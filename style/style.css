@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap');
+
+
+body{
+    min-height: 100vh;
+}
+
+.margin {
+    margin: 5px;
+}
+
+section {
+    font-family: Oswald;
+    width: auto;
+    max-width: 500px;
+}
+
+section .grande{
+    font-size: 60px;
+}
+
+section .chico{
+    font-size: 30px;
+    line-height: 28px;
+}
+
+@media all and (max-width: 300px){
+
+    .margin{
+        margin: 3px
+    };
+
+    section{
+        margin: 2px;
+    }
+
+    .grande{
+        min-width: 80px;
+    }
+}
